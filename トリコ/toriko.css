@@ -1,0 +1,20 @@
+.contents-frame {
+  background-attachment: fixed;
+  background-image: url(toriko-tv-poster1v1-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 80vh;
+  width: 80%;
+}
+.contents-frame::before {
+  background: inherit;
+  content: '';
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+}
