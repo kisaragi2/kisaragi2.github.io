@@ -5,3 +5,8 @@ body {
   -o-background-size: cover;
   background-size: cover; 
 }
+
+hr {
+  border-top: 2px dashed #9dd1ff;
+  background-color: #56b0ff;
+}
