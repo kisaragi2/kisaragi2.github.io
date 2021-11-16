@@ -1,7 +1,4 @@
-body {
-  background: url(3ec862b93a8e4d199b13b6d2d25f3470.jpg) no-repeat center center fixed #C0C0C0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
+.class1 {
+  width: 1000px;
+  height: 700px;
 }
